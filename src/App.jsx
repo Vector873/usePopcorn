@@ -55,6 +55,7 @@ const tempWatchedData = [
   },
 ];
 const KEY = "f4102f25";
+console.log(KEY);
 const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
 export default function App() {
